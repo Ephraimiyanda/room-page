@@ -109,13 +109,13 @@ h4{
 }
 .previous{
 margin-left: -30px;
-    background-image: url(../images/icon-angle-left.svg);
+    background-image: url("./images/icon-angle-left.svg" );
     background-position: center;
     background-repeat: no-repeat;
 }
 .next{
     margin-right: -170px;
-    background-image: url(../images/icon-angle-right.svg);
+    background-image: url(./images/icon-angle-right.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
