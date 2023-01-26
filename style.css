@@ -109,13 +109,13 @@ h4{
 }
 .previous{
 margin-left: -30px;
-    background-image: url("./images/icon-angle-left.svg" );
+    background-image: url(../images/icon-angle-left.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 .next{
     margin-right: -170px;
-    background-image: url(./images/icon-angle-right.svg);
+    background-image: url(../images/icon-angle-right.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -131,8 +131,9 @@ h3{
 }
 @media only screen and (max-device-width:480px) and (min-device-width:390px) {
     .room{
+        margin-top: -650px;
     display: block;
-    margin-left: 200px;
+    margin-left: 260px;
  }
  li{
     display: none;
@@ -167,9 +168,29 @@ h4{
     font-size: x-large;
     margin-left: 80px;
 }
-h1,h2,h3,{
-    
+h1,h2,h3{
+    font-size: xx-large;
+    margin-left: 80px;
+    margin-left: -70px;
+    width: 250px;
 }
-
+.firstParagraph{
+    font-size: x-large;
+    width: 470px;
+    text-align: left;
+    margin-left: -70px; 
+    line-height: 33px;
+}
+.first{
+    margin-bottom: 50px;
+}
+.firstShop{
+    margin-bottom: 50px;
+    margin-left: -68px;
+}
+.retro{
+    width: 700px;
+    height: 700px;
+}
 }
     
