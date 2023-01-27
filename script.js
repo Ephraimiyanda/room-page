@@ -1,6 +1,9 @@
 const backwards = document.querySelector(".previous");
 const further = document.querySelector(".next");
 const retro = document.querySelector(".retro");
+var burger = document.querySelector(".burger");
+var list =document.querySelector(".unordered");
+var close = document.querySelector(".close");
 
 var images = ["desktop-image-hero-1.jpg","desktop-image-hero-2.jpg","desktop-image-hero-3.jpg"];
 var i = 0;
@@ -37,4 +40,13 @@ return setImg();
 }
 further.addEventListener("click", next);
 
+
+function displayList(){
+    list.classList.remove("base")
+}
+function closeList(){
+    list.classList.add("base")
+}
+burger.addEventListener("click", displayList);
+close.addEventListener("click", closeList);
 

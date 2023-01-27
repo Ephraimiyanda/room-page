@@ -23,15 +23,19 @@ button{
     width: 10px;
 }
 .first{
-  
-    margin-left: 200px;
+  margin-top: -450px;
+    margin-left: 900px;
     text-align: left;
     width: 330px;
+    height: 260px;
+    margin-bottom: 0px;
     display: none;
+    position: fixed;
 }
 .retro{
     margin-right: 0px;
     border-width: 0px;
+   
 }
 .firstParagraph{
     width: 340px;
@@ -52,9 +56,8 @@ button{
     margin-left: 15px;
 }
 ul{
-  
+    margin-top:4px;
     list-style: none;
-    color: white;
     display: flex;
 }
 a{
@@ -65,18 +68,23 @@ a{
 }
 
 .room{
+    color: white;
     margin-top: -440px;
     font-size: x-large;
+    margin-left: 130px;
+    margin-top: -435px;
 }
 li{
   
     margin-right: 30px;
     margin-top: -435px;
 }
-
+.upper{
+    display: flex;
+}
 .theLast{
     display: flex;
-    margin-top: -20px;
+   
 }
 .fourth{
     margin-left: 50px;
@@ -129,14 +137,56 @@ h2{
 h3{
     font-size:xx-large;
 }
+.burger{
+    display: none;
+}
 @media only screen and (max-device-width:480px) and (min-device-width:390px) {
+    body{
+        
+    }
     .room{
-        margin-top: -650px;
+        display: block;
+        font-size: xxx-large;
+        margin-top: 19px;
     display: block;
     margin-left: 260px;
  }
- li{
+ .container{
+  
+    width: 700px;
+   
+ }
+ .upper{
+    margin-top: -70px;
+    display: block;
+    
+ }
+ .unordered{
+    
+    background-color: white;
+   margin-top: 340px;
+   margin-left: 40px;
+   width:300px;
+   color: black;
+
+ }
+ .base{
     display: none;
+ }
+ li{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    margin-left: -80px;
+    height: 50px;
+    background-color: white;
+ }
+ .close{
+    height: 40px;
+ }
+ a{
+    font-size: large;
+    color: black;
  }
  .theLast{
     display: flex;
@@ -168,11 +218,17 @@ h4{
     font-size: x-large;
     margin-left: 80px;
 }
-h1,h2,h3{
-    font-size: xx-large;
+h2,h3{
+    font-size: xxx-large;
     margin-left: 80px;
     margin-left: -70px;
-    width: 250px;
+    width: 460px;
+}
+h1{
+    width: 460px;
+    font-size: xxx-large;
+    margin-left: 80px;
+    margin-left: -70px; 
 }
 .firstParagraph{
     font-size: x-large;
@@ -182,7 +238,10 @@ h1,h2,h3{
     line-height: 33px;
 }
 .first{
-    margin-bottom: 50px;
+    position: inherit;
+    margin-top: -160px;
+    margin-left: 220px;
+
 }
 .firstShop{
     margin-bottom: 50px;
@@ -191,6 +250,33 @@ h1,h2,h3{
 .retro{
     width: 700px;
     height: 700px;
+    
+}
+.theLast{
+    margin-top: 300px;
+}
+.previous,.next{
+ margin-bottom: 200px;  
+ margin-top: 160px; 
+ height: 80px;
+ width: 100px;
+ 
+}
+.previous{
+    margin-left: 500px;
+}
+.dark,.light{
+    width: 699px;
+    margin-left: 0px;
+}
+.burger{
+    background-color: black;
+    width: 50px;
+    margin-top: -650px;
+    display: block;
+    margin-left: 70px;
+    margin-bottom: -50px;
+   
 }
 }
     
