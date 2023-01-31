@@ -140,7 +140,7 @@ h3{
 .burger{
     display: none;
 }
-@media only screen and (max-device-width:480px) and (min-device-width:390px) {
+@media only screen and (max-device-width:440px) and (min-device-width:360px) {
     body{
         
     }
