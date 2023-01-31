@@ -147,9 +147,9 @@ h3{
     .room{
         display: block;
         font-size: xxx-large;
-        margin-top: 19px;
+        margin-top: -109px;
     display: block;
-    margin-left: 260px;
+    margin-left: 160px;
  }
  .container{
   
@@ -177,9 +177,10 @@ h3{
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 50px;
-    margin-left: -80px;
+    margin-left: -180px;
     height: 50px;
-    background-color: white;
+    background-color: white:
+Margin-top:-180px;
  }
  .close{
     height: 40px;
