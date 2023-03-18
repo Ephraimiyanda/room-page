@@ -1,283 +1,198 @@
-body{
-    display:grid;
-    grid-gap:20px;
-    grid-template-columns:repeat(auto-fill,minmax(600px,1fr) ) ;
-}
-.main{
-    display:flex;
-}
-.call{
-    display: none;
-}
-nav{
-   margin-bottom: 60px;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 1000px;
-    height: 400px;
-}
-button{
-    
-    height: 10px;
-    width: 10px;
-}
 .first{
-  margin-top: -450px;
-    margin-left: 900px;
-    text-align: left;
-    width: 330px;
-    height: 260px;
-    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     display: none;
-    position: fixed;
+    text-align: left;
+    
 }
-.retro{
-    margin-right: 0px;
-    border-width: 0px;
-   
+h1,h2,h3{
+    font-size: x-large;
 }
-.firstParagraph{
-    width: 340px;
-   font-size:smaller;
-   color:rgb(137, 133, 133);
+h4{
+    font-size: larger;
 }
-.firstShop{
-    letter-spacing: 5px;
-    font-size: smaller;
-    font-weight: 700;
+.article{
+    width: 480px;
+    margin-left: 50px;
+    padding-bottom: 0px;
 }
-.firstShop:hover{
-    cursor: pointer;
-    color:rgb(152, 150, 150);
-}
-
-.firstArrow{
-    margin-left: 15px;
-}
-ul{
-    margin-top:4px;
-    list-style: none;
+.top{
     display: flex;
 }
 a{
-   
-    font-size: smaller;
-    color: white;
     text-decoration: none;
-}
-
-.room{
     color: white;
-    margin-top: -440px;
-    font-size: x-large;
-    margin-left: 130px;
-    margin-top: -435px;
+    margin-right:  10px;
+   
+}
+a:hover{
+    color: gray;
+}
+.shop{
+    color: black;
+}
+.shop:hover{
+    color:gray
 }
 li{
-  
-    margin-right: 30px;
-    margin-top: -435px;
+    display: inline-block;
+    
 }
-.upper{
-    display: flex;
+.room{
+    
+    font-size: x-large;
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
 }
-.theLast{
+.content{
+    display:block;
+}
+.active{
+    
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topbar{
+
+width: 50%;
+margin-top: 00px;
+margin-left: 120px;
+
+position: absolute;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    width: 68.7%;
+    margin-top: 495px;
+margin-bottom: -534px;
+}
+button{
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    border: 0px;
    
 }
-.fourth{
-    margin-left: 50px;
-    margin-top: 50px;
-}
-h4{
-    letter-spacing: 3px;
-    
-}
-.fourthParagraph{
-    width: 410px;
-    font-size:smaller;
-    color:rgb(137, 133, 133);
-}
-.light{
-    margin-left: 40px;
-    margin-right: -40px;
-}
-.previous,.next{
-    margin-top: 410px;
-    height: 50px;
-    width:70px ;
-    background-color: black;
-    border: none;
- 
-}
-.previous:hover,.next:hover{
-    background-color: rgb(71, 70, 70);
-    
+button:hover{
+    background-color: gray;
 }
 .previous{
-margin-left: -30px;
+    width: 67px;
     background-image: url(./images/icon-angle-left.svg);
+    background-repeat: no-repeat ;
     background-position: center;
-    background-repeat: no-repeat;
+
 }
 .next{
-    margin-right: -170px;
     background-image: url(./images/icon-angle-right.svg);
+    background-repeat: no-repeat ;
     background-position: center;
-    background-repeat: no-repeat;
-}
-
-.active{
-    display: block;
-}
-h2{
-    font-size: xx-large;
-}
-h3{
-    font-size:xx-large;
-}
-.burger{
-    display: none;
-}
-@media only screen and (max-device-width:520px) and (min-device-width:320px) {
-    body{
-        
-    }
-    .room{
-        display: block;
-        font-size: xxx-large;
-        margin-top: -109px;
-    display: block;
-    margin-left: 160px;
- }
- .container{
-  
-    width: 700px;
-   
- }
- .upper{
-    margin-top: -70px;
-    display: block;
-    
- }
- .unordered{
-    
-    background-color: white;
-   margin-top: 340px;
-   margin-left: 40px;
-   width:300px;
-   color: black;
-
- }
- .base{
-    display: none;
- }
- li{
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 50px;
-    margin-left: -180px;
-    height: 50px;
-    background-color: white:
-Margin-top:-180px;
- }
- .close{
-    height: 40px;
- }
- a{
-    font-size: large;
-    color: black;
- }
- .theLast{
-    display: flex;
-    flex-direction: column;
-    margin-left:0px;
- }
- .dark{
-    margin-left: 60px;
-    width: 600px;
- }
- .light{
-    margin-left: 60px;
-    width: 600px;
- }
- .main{
-    display: block;
- }
-.previous{
-margin-left: 550px; 
-}
-.fourthParagraph{
-    font-size: x-large;
-    width: 470px;
-    text-align: left;
-    margin-left: 80px; 
-    line-height: 33px;
-}
-h4{
-    font-size: x-large;
-    margin-left: 80px;
-}
-h2,h3{
-    font-size: xxx-large;
-    margin-left: 80px;
-    margin-left: -70px;
-    width: 460px;
-}
-h1{
-    width: 460px;
-    font-size: xxx-large;
-    margin-left: 80px;
-    margin-left: -70px; 
-}
-.firstParagraph{
-    font-size: x-large;
-    width: 470px;
-    text-align: left;
-    margin-left: -70px; 
-    line-height: 33px;
-}
-.first{
-    position: inherit;
-    margin-top: -160px;
-    margin-left: 220px;
-
-}
-.firstShop{
-    margin-bottom: 50px;
-    margin-left: -68px;
-}
-.retro{
-    width: 700px;
-    height: 700px;
-    
 }
 .theLast{
-    margin-top: 300px;
+    
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
 }
-.previous,.next{
- margin-bottom: 200px;  
- margin-top: 160px; 
- height: 80px;
- width: 100px;
- 
+.baseSection{
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 100%;
+gap: 53px;
+margin-left: 23px;
+
 }
-.previous{
-    margin-left: 500px;
-}
-.dark,.light{
-    width: 699px;
-    margin-left: 0px;
+.fourth{
+    width: 30%;
+    height: 20%;
+    
 }
 .burger{
-    background-color: black;
-    width: 50px;
-    margin-top: -650px;
+display: none;
+}
+.close{
+    display: none;
+}
+@media (max-width:1250px)  {
+
+    .theLast{
+        display: flex;
+        flex-direction: column;
+    }
+    .fourth{
+margin-left: 30px;
+width: 50%;
+    }
+}
+@media (max-width:900px) {
+    html{
+        overflow-x: hidden;
+    }
+    .images{
+    width: 100%;
+    height: 500px;
+    }
+    .topbar{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin: 0px;
+    }
+.top{
+    width: 100%;
+    justify-content: center;
+}
+.room{
+    margin-top: -20px;
+}
+    a{
+        color: black;
+    }
+    .navLinks{
+        display: flex;
+        background-color: white;       
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+    }
+    .btns{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-end;
+        margin-top: 460px;
+        width: 97%;
+        padding-right: 30px;
+        position: absolute;
+    }
+.burger{
+
     display: block;
-    margin-left: 70px;
-    margin-bottom: -50px;
-   
-}
-}
+    width: 40px;
+    padding-top: 10px;
     
+}
+.hidden{
+display: none;
+}
+.close{
+    display: block;
+    margin-right: 30px;
+    height: 20px;
+    margin-left: -20px;
+    
+}
+.active{
+    padding-bottom: 30px;
+}
+
+}
