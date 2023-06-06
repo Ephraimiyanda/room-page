@@ -148,11 +148,17 @@ h3{
     letter-spacing: 10px;
     font-weight: 700;
 }
+@media screen and (max-width: 1175px){
+    .btns div{
+        width: 14%;
+    }
+}
 @media screen and (max-width: 1075px){
     .btns div{
         width: 11.8%;
     }
 }
+
 @media screen and (max-width: 795px) {
    
     .first {
