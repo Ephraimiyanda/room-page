@@ -1,22 +1,19 @@
 const backwards = document.querySelector(".previous");
 const further = document.querySelector(".next");
 const burger=document.querySelector(".burger");
-const links = document.querySelector(".navLinks");
+const links = document.querySelector(".navbar ul");
 const cross = document.querySelector(".close");
-const room = document.querySelector(".room");
 
 function displaybar(){
-    links.classList.remove("hidden");
-    burger.style.display="none";
-    room.style.display="none";
+  links.classList.add("hidden");
 }
 function closebar(){
-  links.classList.add("hidden");
-  burger.style.display="block";
-  room.style.display="flex";
-}
+  links.classList.remove("hidden");
+} 
 burger.addEventListener("click", displaybar);
 cross.addEventListener("click", closebar );
+
+
 
 let article = document.querySelectorAll('.first');
 let index = 0;
